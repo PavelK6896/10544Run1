@@ -1,0 +1,22 @@
+#.........................................
+#.........................................
+
+name: one
+
+on: [push]
+
+jobs:
+  my_one:
+    runs-on: ubuntu
+    steps:
+    - name: pring hello
+      run: echo "Hello!"
+      
+  my_two:
+     runs-on: ubuntu
+     steps:
+     - name: pring hello
+       run: echo "Hello!"
+       
+       
+    
