@@ -7,13 +7,13 @@ on: [push]
 
 jobs:
   my_one:
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     steps:
     - name: pring hello
       run: echo "Hello!"
       
   my_two:
-     runs-on: ubuntu
+     runs-on: ubuntu-latest
      steps:
      - name: pring hello
        run: echo "Hello!"
