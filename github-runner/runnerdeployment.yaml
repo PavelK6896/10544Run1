@@ -1,0 +1,14 @@
+apiVersion: actions.summerwind.dev/v1alpha1
+kind: RunnerDeployment
+metadata:
+  name: example-runnerdeploy
+spec:
+  replicas: 1
+  template:
+    spec:
+      repository: PavelK6896/10544Run1
+
+
+
+
+
