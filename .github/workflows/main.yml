@@ -15,8 +15,8 @@ jobs:
   my_two:
      runs-on: ubuntu-latest
      steps:
-     - name: pring hello
-       run: echo "Hello!"
+     - name: pring2 hello2
+       run: echo "Hello! 2"
        
        
     
